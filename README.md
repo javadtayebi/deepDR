@@ -22,11 +22,11 @@ Contain the PPMI matrices of ten drug-related networks.
     python get_features.py params.txt
     ```
 2. To predict drug-disease associations by cVAE, run
-   1. pretraining with features:
+   1. Pretraining with features:
        ```
        python models/recommendation/collective_variational_autoencoder.py --dir dataset -a 6 -b 0.1 -m 300 --save --layer 1000 100
        ```
-   2. refine training with rating:
+   2. Refine training with rating:
        ```
        python models/recommendation/collective_variational_autoencoder.py --dir dataset --rating -a 15 -b 3 -m 500 --load 1 --layer 1000 100
        ```
