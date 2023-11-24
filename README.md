@@ -18,9 +18,9 @@ Contain the PPMI matrices of ten drug-related networks.
 ...
 ### Tutorial
 1. To get drug features learned by MDA, run
-```
-python get_features.py params.txt
-```
+    ```
+    python get_features.py params.txt
+    ```
 2. To predict drug-disease associations by cVAE, run
    1. pretraining with features:
        ```
