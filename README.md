@@ -4,14 +4,14 @@
 
 > https://github.com/ChengF-Lab/deepDR
 
-### 'dataset' directory
+### `dataset` directory
 Contain the drug-disease interactions dataset.
-### 'PPMI' directory
+### `PPMI` directory
 Contain the PPMI matrices of ten drug-related networks.
-### 'models' directory
-1. 'deep_network_fusion' directory, which contains 3 variants implementations of Multimodal Deep Autoencoder (MDA)
+### `models` directory
+1. `deep_network_fusion` directory, which contains 3 variants implementations of Multimodal Deep Autoencoder (MDA)
     > https://doi.org/10.1093/bioinformatics/bty440
-2. 'recommendation' directory, which contains implementation of Collective Variational Autoencoder (cVAE)
+2. `recommendation` directory, which contains implementation of Collective Variational Autoencoder (cVAE)
     > https://doi.org/10.1145/3270323.3270326
     - Updated for calculating Recall@K metric.
 ### Requirements
@@ -30,4 +30,4 @@ Contain the PPMI matrices of ten drug-related networks.
        ```
        python models/recommendation/collective_variational_autoencoder.py --dir dataset --rating -a 15 -b 3 -m 500 --load 1 --layer 1000 100
        ```
-- On colab, simply follow the 'deepDR.ipynb' notebook.
+- On colab, simply follow the `deepDR.ipynb` notebook.
