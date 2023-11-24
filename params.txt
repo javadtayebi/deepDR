@@ -1,0 +1,6 @@
+ae_type=regular
+select_arch=2
+select_nets=[1,2,3,4,5,6,7,8,10]
+epochs=500
+batch_size=64
+noise_factor=0.5
