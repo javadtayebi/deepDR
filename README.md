@@ -15,7 +15,7 @@ Contain the PPMI matrices of ten drug-related networks.
     > https://doi.org/10.1145/3270323.3270326
     - Updated for calculating Recall@K metric.
 
-### Tutorial
+## Tutorial
 1. To get drug features learned by MDA, run
     ```
     python get_features.py params.txt
